@@ -10,7 +10,7 @@
  http://www.springframework.org/schema/context/spring-context-3.0.xsd ">
 
 <context:annotation-config/>
-<context:component-scan base-package="com.cantero.test.controller"/>
+<context:component-scan base-package="com"/>
 
 <bean id="jspViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
