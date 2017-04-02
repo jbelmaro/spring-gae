@@ -12,36 +12,10 @@
 <context:annotation-config/>
 <context:component-scan base-package="com.cantero.test.controller"/>
 
-<!--
 <bean id="jspViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
 <property name="prefix" value="/WEB-INF/jsp/"/>
 <property name="suffix" value=".jsp"/>
 </bean>
--->
 
-<bean id="tilesViewResolver"
- class="org.springframework.web.servlet.view.UrlBasedViewResolver">
-    <!--
-	<property name="viewClass" value="org.springframework.web.servlet.view.tiles2.TilesView"/>
-	-->
-	<property name="viewClass" value="org.springbyexample.web.servlet.view.tiles2.DynamicTilesView"/>
-    <property name="prefix" value="/WEB-INF/jsp/"/>
-    <property name="suffix" value=".jsp"/>
-</bean>
-
-<bean id="tilesConfigurer"
- class="org.springframework.web.servlet.view.tiles2.TilesConfigurer">
-    <property name="definitions">
-        <list>
-            <value>/WEB-INF/tiles-defs/templates.xml</value>
-        </list>
-    </property>
-</bean>
-
-<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
-    <property name="webBindingInitializer">
-        <bean class="com.cantero.test.BindingInitializer"/>
-    </property>
-</bean>
 </beans>
