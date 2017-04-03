@@ -3,6 +3,18 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" sourcepath="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/guava/guava/18.0/guava-18.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/googlecode/objectify/objectify/5.1.13/objectify-5.1.13.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/appengine/appengine-tools-sdk/1.9.50/appengine-tools-sdk-1.9.50.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/truth/truth/0.30/truth-0.30.jar"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.10/junit-4.10.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/errorprone/error_prone_annotations/2.0.8/error_prone_annotations-2.0.8.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/appengine/appengine-api-1.0-sdk/1.9.50/appengine-api-1.0-sdk-1.9.50.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/appengine/appengine-endpoints/1.9.50/appengine-endpoints-1.9.50.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/appengine/appengine-api-labs/1.9.50/appengine-api-labs-1.9.50.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/appengine/appengine-jsr107cache/1.9.50/appengine-jsr107cache-1.9.50.jar"/>
 	<classpathentry kind="var" path="M2_REPO/taglibs/standard/1.1.2/standard-1.1.2.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/apache/tiles/tiles-core/2.1.2/tiles-core-2.1.2.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/apache/tiles/tiles-api/2.1.2/tiles-api-2.1.2.jar"/>
